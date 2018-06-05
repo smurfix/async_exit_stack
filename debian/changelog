@@ -1,0 +1,5 @@
+async-exit-stack (1.0.1-1) smurf; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Tue, 05 Jun 2018 15:55:58 +0200

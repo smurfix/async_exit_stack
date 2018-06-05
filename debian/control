@@ -1,0 +1,33 @@
+Source: async-exit-stack
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/sorcio/async_exit_stack
+
+Package: python3-async-exit-stack
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: AsyncExitStack backport for Python 3.5+
+ .. role:: python(code)
+    :language: python
+ .
+ .. image:: https://img.shields.io/pypi/v/async_exit_stack.svg
+         :target: https://pypi.python.org/pypi/async_exit_stack
+ .
+ .. image:: https://img.shields.io/travis/sorcio/async_exit_stack.svg
+         :target: https://travis-ci.org/sorcio/async_exit_stack
+ .
+ .. image:: https://codecov.io/gh/sorcio/async_exit_stack/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/sorcio/async_exit_stack
+ .
+ =======================================
+ AsyncExitStack backport for Python 3.5+
+ =======================================
+ .
+ .
+ * Free software: PSF license
+ * Documentation: https://docs.python.org/3.7/library/contextlib.html#contextlib.AsyncExitStack
+ .
+
