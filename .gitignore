@@ -83,6 +83,9 @@ celerybeat-schedule
 # dotenv
 .env
 
+# Debian
+.pybuild/
+
 # virtualenv
 .venv
 venv/
